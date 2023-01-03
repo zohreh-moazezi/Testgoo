@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="fa" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="font/webfonts">
+    <link rel="stylesheet" href="font/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/javascript.js"></script>
+    <title>testgoo</title>
+</head>
+<body>
+   <div class="container-fluid">
+       <div class="upheader">تست MBTI (شخصیت شناسی) رایگان</div>
+   <div class="container">
+       <div class="row header">
+            <nav class="navbar navbar-inverse" >
+               <div class="navbar-header">
+                   <a class="navbar-brand" href="#">
+                     Testgoo
+                   </a>
+               </div>
+               <ul class="nav navbar-nav navbar-right flex-row-reverse" >
+                       <li><a href="#">ورود<i class="fas fa-sign-in-alt menu"></i></a></li>
+                       <li><a href="#">ثبت نام<i class="fas fa-lock menu"></i></a></li>
+               </ul>
+            </nav>
+        </div>
+       <div class="menubox">
+           <div class="search-container ">
+               <form action="/action_page.php">
+                   <input type="text" placeholder="جستجو" name="search">
+                   <a><i class="fa fa-search search1"></i></a>
+               </form>
+           </div>
+           <div class="topnav d-sm-none d-md-block">
+           <a class="active" href="#">صفحه اصلی</a>
+           <a href="#">آزمون ها</a>
+           <a href="#">محصولات</a>
+           <a href="#">بازی فکری</a>
+           <a href="#">درباره ی ما</a>
+           <a href="#">مجله ی روانشناسی</a>
+           </div>
+       </div>
+       <div class="humbergermenu d-none d-sm-block d-md-none">
+       <div class="navToggle">
+           <span></span><span></span><span></span>
+       </div>
+       <nav class="globalMenuSp">
+           <ul>
+               <li><a href="#">صفحه اصلی</a></li>
+               <li><a href="#">آزمون ها</a></li>
+               <li><a href="#">محصولات</a></li>
+               <li><a href="#">بازی فکری</a></li>
+               <li><a href="#">درباره ی ما</a></li>
+           </ul>
+       </nav>
+   </div>
+   </div>
+   <section id= "slider">
+       <input type= "radio" name="slider" id= "slide-1-radio" checked />
+       <input type= "radio" name="slider" id= "slide-2-radio" />
+       <input type= "radio" name="slider" id= "slide-3-radio" />
+       <div class= "slides">
+           <div class= "slide" id="first-slide">
+               <div class="carousel-caption d-none d-md-block clearfix">
+                   <h1 class="MBTI">MBTI</h1>
+                   <h6 class="matn">میخوای از شخصیت واقعی خودت باخبر بشی؟</h6>
+                   <p class="issue">ما یک راهکار ساده و کاملا آسون به شما معرفی می کنیم تا فقط با چند تا کلیک ساده به این موضوع برسین...</p>
+                   <button type="button" class="rounded-pill float-start click">کلیک کن</button>
+               </div>
+           </div>
+           <div class= "slide">
+               <a href= "#"><img src= "picture/Wallpaper%20(3).jpg" alt="slide-1" style="width: 100%;
+    height: 100%" /></a>
+           </div>
+           <div class= "slide">
+               <a href= "#"><img src= "picture/Wallpaper%20(4).jpg" alt="slide-1" style="width: 100%;
+    height: 100%" /></a>
+           </div>
+       </div>
+       <div class="prev-arrow arrow">
+           <label for= "slide-1-radio" id= "prev-1-arrow">
+               <i class= "fa fa-arrow-left"></i>
+               <span class= "thumb">
+        <img src= "picture/Wallpaper%20(4).jpg" alt="slide-1-thumb" style="width: 100%;
+    height: 100%">
+      </span>
+           </label>
+           <label for= "slide-2-radio" id= "prev-2-arrow">
+               <i class= "fa fa-arrow-left"></i>
+               <span class= "thumb">
+        <img src= "picture/Wallpaper%20(3).jpg" alt="slide-2-thumb" style="width: 100%;
+    height: 100%" />
+      </span>
+           </label>
+           <label for= "slide-3-radio" id= "prev-3-arrow">
+               <i class= "fa fa-arrow-left"></i>
+           </label>
+       </div>
+       <div class="next-arrow arrow">
+           <label for= "slide-1-radio" id= "next-1-arrow">
+               <i class= "fa fa-arrow-right"></i>
+               <span class= "thumb">
+        <img src= "picture/Wallpaper%20(4).jpg" alt="slide-1-thumb" style="width: 100%;
+    height: 100%">
+      </span>
+           </label>
+           <label for= "slide-2-radio" id= "next-2-arrow">
+               <i class= "fa fa-arrow-right"></i>
+               <span class= "thumb">
+        <img src= "picture/Wallpaper%20(3).jpg" alt="slide-2-thumb" style="width: 100%;
+    height: 100%">
+      </span>
+           </label>
+           <label for= "slide-3-radio" id= "next-3-arrow">
+               <i class= "fa fa-arrow-right"></i>
+           </label>
+       </div>
+   </section>
+       <div class="container">
+        <div class="row title1">
+            <h6 class="testgoo">
+                تست گو
+            <span class="online">
+                ،سنجش آنلاین
+            </span>
+            </h6>
+            <p class="line">تست گو با بومی سازی سنجش بین المللی روانشناسی،بهترین نتیجه را در اختیار کاربران ایرانی قرار می دهد،همچنین در این وبسایت برخلاف سایر وبسایت ها تنها به تحلیل و نتیجه بسنده نمی کنیم و با ارایه راهکارهای علمی و کاربردی و تمرینات و جزوات آموزشی در کنار شما هستیم.
+            </p>
+        </div>
+        <div class="row tests">
+            <h6 class="category"> دسته بندی آزمون ها</h6>
+            <div class="tests1 col-12 flex-container gap-5">
+              <div class="job flex-item">
+                <div class="jimg">
+                    <img src="picture/bag.svg">
+                </div>
+                <div class="jlabel">
+                    شغلی و سازمانی
+                </div>
+                <div class="jbutton">
+                    <button type="button" class="rounded-pill">کلیک کن</button>
+                </div>
+              </div>
+                <div class="education flex-item">
+                <div class="eimg">
+                    <img src="picture/educate.svg">
+                </div>
+                <div class="elabel">
+                    تحصیلی
+                </div>
+                <div class="ebutton">
+                    <button type="button" class="rounded-pill">کلیک کن</button>
+                </div>
+                </div>
+                <div class="lamp flex-item">
+                <div class="limg">
+                    <img src="picture/head.svg">
+                </div>
+                <div class="llabel">
+                    خودشناسی
+                </div>
+                <div class="lbutton">
+                    <button type="button" class="rounded-pill">کلیک کن</button>
+                </div>
+                </div>
+                <div class="ring flex-item">
+                <div class="rimg">
+                    <img src="picture/ring.svg">
+                </div>
+                <div class="rlabel">
+                    ازدواج و خانواده
+                </div>
+                <div class="rbutton">
+                    <button type="button" class="rounded-pill">کلیک کن</button>
+                </div>
+                </div>
+                <div class="child flex-item">
+                <div class="cimg">
+                    <img src="picture/child.svg">
+                </div>
+                <div class="clabel">
+                    کودک و فرزندپروری
+                </div>
+                <div class="cbutton">
+                    <button type="button" class="rounded-pill">کلیک کن</button>
+                </div>
+                </div>
+            </div>
+        </div>
+       <div class="row new">
+            <h6 class="newtest">جدیدترین آزمون ها</h6>
+           <section class="features">
+               <div class="slider-container">
+                   <div class="slider-content" >
+                       <div>
+                   <img src="picture/man.png" style="width: 100px;height: 100px;">
+                       </div>
+                   <div class="slider-item">
+                           <div class="feat">
+                              <span class="fa fa-check fa-2x"></span>
+                               <h5>لورم ایپسوم متن ساختگی یا تولید ساختگی نامفهوم از صنعت جاپ </h5>
+                               <p class="newtests">لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی است.</p>
+                               <button type="button" class="rounded-pill newbutton">کلیک کن!</button>
+                           </div>
+                       </div>
+                       <div>
+                       <img src="picture/man.png" style="width: 100px;height: 100px;">
+                       </div>
+                       <div class="slider-item">
+                           <div class="feat">
+                               <span class="fa fa-check fa-2x"></span>
+                               <h5>لورم ایپسوم متن ساختگی یا تولید ساختگی نامفهوم از صنعت جاپ</h5>
+                               <p class="newtests">لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی است.</p>
+                               <button type="button" class="rounded-pill newbutton">کلیک کن!</button>
+                           </div>
+                       </div>
+                       <div>
+                       <img src="picture/man.png" style="width: 100px;height: 100px;">
+                       </div>
+                       <div class="slider-item">
+                           <div class="feat">
+                               <span class="fa fa-check fa-2x"></span>
+                               <h5>لورم ایپسوم متن ساختگی یا تولید ساختگی نامفهوم از صنعت جاپ</h5>
+                               <p class="newtests">لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی است.</p>
+                               <button type="button" class="rounded-pill newbutton">کلیک کن!</button>
+                           </div>
+                       </div>
+                       <div>
+                       <img src="picture/man.png" style="width: 100px;height: 100px;">
+                       </div>
+                       <div class="slider-item">
+                           <div class="feat">
+                               <span class="fa fa-check fa-2x"></span>
+                               <h5>لورم ایپسوم متن ساختگی یا تولید ساختگی نامفهوم از صنعت جاپ</h5>
+                               <p class="newtests">لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی است.</p>
+                               <button type="button" class="rounded-pill newbutton">کلیک کن!</button>
+                           </div>
+                       </div>
+                       <div>
+                       <img src="picture/man.png" style="width: 100px;height: 100px;">
+                       </div>
+                       <div class="slider-item">
+                           <div class="feat">
+                               <span class="fa fa-check fa-2x"></span>
+                               <h5>لورم ایپسوم متن ساختگی یا تولید ساختگی نامفهوم از صنعت جاپ</h5>
+                               <p class="newtests">لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی است.</p>
+                               <button type="button" class="rounded-pill newbutton">کلیک کن!</button>
+                           </div>
+                       </div>
+                       <div>
+                       <img src="picture/man.png" style="width: 100px;height: 100px;">
+                       </div>
+                       <div class="slider-item">
+                           <div class="feat">
+                               <span class="fa fa-check fa-2x"></span>
+                               <h5>لورم ایپسوم متن ساختگی یا تولید ساختگی نامفهوم از صنعت جاپ</h5>
+                               <p class="newtests">لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی است.</p>
+                               <button type="button" class="rounded-pill newbutton">کلیک کن!</button>
+                           </div>
+                       </div>
+                       <div>
+                       <img src="picture/man.png" style="width: 100px;height: 100px;">
+                       </div>
+                       <div class="slider-item">
+                           <div class="feat">
+                               <span class="fa fa-check fa-2x"></span>
+                               <h5>لورم ایپسوم متن ساختگی یا تولید ساختگی نامفهوم از صنعت جاپ</h5>
+                               <p class="newtests">لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی است.</p>
+                               <button type="button" class="rounded-pill newbutton">کلیک کن!</button>
+                           </div>
+                       </div>
+                       <div>
+                       <img src="picture/man.png" style="width: 100px;height: 100px;">
+                       </div>
+                       <div class="slider-item">
+                           <div class="feat">
+                               <span class="fa fa-check fa-2x"></span>
+                               <h5>لورم ایپسوم متن ساختگی یا تولید ساختگی نامفهوم از صنعت جاپ</h5>
+                               <p class="newtests">لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی است.</p>
+                               <button type="button" class="rounded-pill newbutton">کلیک کن!</button>
+                           </div>
+                       </div>
+                       <div>
+                       <img src="picture/man.png" style="width: 100px;height: 100px;">
+                       </div>
+                       <div class="slider-item">
+                           <div class="feat">
+                               <span class="fa fa-check fa-2x"></span>
+                               <h5>لورم ایپسوم متن ساختگی یا تولید ساختگی نامفهوم از صنعت جاپ</h5>
+                               <p class="newtests">  لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی است.</p>
+                               <button type="button" class="rounded-pill newbutton">کلیک کن!</button>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="slider-controls">
+                       <button class="left"></button>
+                       <button class="right"></button>
+                   </div>
+               </div>
+           </section>
+       </div>
+       <div class="row special">
+            <h6 class="specialtest">آزمون های ویژه</h6>
+               <div class=" rounded-pill test">
+                   <div class="empty">
+                       <h6  class="emptytitle">لورم ایپسوم</h6>
+                        <p class="emptyparagraph">لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه  </p>
+                       <a href="#"><i class="fas fa-caret-left triangle"></i></a>
+                      </div>
+                   <div class="person">
+                   <img src="picture/question.svg">
+                   </div>
+               </div>
+
+           <div class="content rounded-pill test">
+               <div class="person1">
+                   <img src="picture/question.svg">
+               </div>
+               <div class="empty1">
+                   <h6  class="emptytitle exception1">لورم ایپسوم</h6>
+                   <p  class="emptyparagraph exception2 ">لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این  متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه  </p>
+                   <a href="#"> <i class="fas fa-caret-left triangle1"></i></a>
+               </div>
+           </div>
+
+           <div class="rounded-pill test">
+               <div class="empty">
+                   <h6 class="emptytitle">لورم ایپسوم</h6>
+                   <p class="emptyparagraph">لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه  </p>
+                   <a href="#"><i class="fas fa-caret-left triangle"></i></a>
+               </div>
+               <div class="person">
+                   <img src="picture/question.svg">
+               </div>
+           </div>
+       </div>
+        <div class="row">
+            <div class="lorem1">
+            <h4 class="lorem">لورم ایپسوم</h4>
+            <p class="loremtext">لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی شده بعد از اینکه متن در آن قرار گیرد چگونه به نظر می‌رسد و قلم‌ها و اندازه‌بندی‌ها چگونه در نظر گرفته شده‌است. از آنجایی که طراحان عموما نویسنده متن نیستند و وظیفه رعایت حق تکثیر متون را ندارند و در همان حال کار آنها به نوعی وابسته به متن می‌باشد.</p>
+            </div>
+            <div class="lorem2">
+            <h4 class="lorem">لورم ایپسوم</h4>
+            <p class="loremtext">لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی شده بعد از اینکه متن در آن قرار گیرد چگونه به نظر می‌رسد و قلم‌ها و اندازه‌بندی‌ها چگونه در نظر گرفته شده‌است. از آنجایی که طراحان عموما نویسنده متن نیستند و وظیفه رعایت حق تکثیر متون را ندارند و در همان حال کار آنها به نوعی وابسته به متن می‌باشد.</p>
+            </div>
+            <div class="lorem3">
+            <h4 class="lorem">لورم ایپسوم</h4>
+            <p class="loremtext">لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی شده بعد از اینکه متن در آن قرار گیرد چگونه به نظر می‌رسد و قلم‌ها و اندازه‌بندی‌ها چگونه در نظر گرفته شده‌است. از آنجایی که طراحان عموما نویسنده متن نیستند و وظیفه رعایت حق تکثیر متون را ندارند و در همان حال کار آنها به نوعی وابسته به متن می‌باشد.</p>
+            </div>
+            </div>
+   </div>
+        <div class="row background">
+            <p class="background1">آزمون های انجام شده تاکنون</p>
+            <p  class="background2">5466654</p>
+        </div>
+   <div class="container">
+        <div class="row send">
+            <div class="text emailbox">
+                <nobr><label class="form-label">از آخرین اخبارباخبر شوید</label></nobr>
+                <div class="input-group mb-3">
+                    <button class="btn btn-outline-secondary rounded-pill" type="button" id="inputGroup-sizing-sm">ارسال</button>
+                    <input type="text" class="form-control rounded-pill someInput" placeholder="آدرس ایمیل خود را وارد کنید" name="email">
+                </div>
+                <div class="logo">
+                    <a href="#">
+                    <img src="picture/instagram.jpg" id="instagram" class="rounded">
+                    </a>
+                    <a href="#">
+                    <img src="picture/telegram.png" id="telegram" class="rounded">
+                    </a>
+                    <a href="#">
+                    <img src="picture/facebook.jpg" id="facebook" class="rounded">
+                    </a>
+                </div>
+            </div>
+            <div class="text">
+                <h5>لورم ایپسوم</h5>
+                <p>لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید.  </p>
+            </div>
+            <div class="text">
+                <h5>لورم ایپسوم</h5>
+                <p>لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید.  </p>
+            </div>
+            <div class="text">
+                <h5>لورم ایپسوم</h5>
+                <p> لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود.طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید.  </p>
+            </div>
+   </div>
+   </div>
+    <div class="footer">
+        <div class="container">
+        <div class="end">
+            <h6>تست گو</h6>
+        <p>
+            تست گو با بومی سازی سنجش بین المللی روانشناسی،بهترین نتیجه را در اختیار کاربران ایرانی قرار می دهد،همچنین در این وبسایت برخلاف سایر وبسایت ها تنها به تحلیل و نتیجه بسنده نمی کنیم و با ارایه راهکارهای علمی و کاربردی و تمرینات و جزوات آموزشی در کنار شما هستیم.
+        </p>
+        </div>
+        <div class="certificate">
+            <img src="picture/Enamad.jpg" class="rounded-3">
+            <img src="picture/digital.jpg" class="rounded-3">
+        </div>
+        <p  class="rights">
+            کلیه ی حقوق این سایت متعلق به شرکت تست گو می باشد.
+        </p>
+        </div>
+    </div>
+   </div>
+</body>
+</html>
